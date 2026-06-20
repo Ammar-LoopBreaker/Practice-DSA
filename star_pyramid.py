@@ -1,3 +1,9 @@
+'''Given an integer N, print the following pattern
+In this pattern, we form a pyramid of stars. Each row contains
+(N - i - 1) spaces on the left (to center align the stars),
+(2 * i + 1) stars in the middle,
+(N - i - 1) spaces on the right'''
+
 class Solution:
     def pattern7(self, N):
         for i in range(N):

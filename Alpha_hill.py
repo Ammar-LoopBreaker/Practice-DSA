@@ -1,3 +1,8 @@
+'''Given an integer N, print the following pattern
+The pattern should contain N rows. In each row, 
+characters are printed in increasing alphabetical order starting from A up to a peak character and then in decreasing order, 
+forming a symmetric hill shape.'''
+
 def pattern17(N):
     for i in range(N):
 

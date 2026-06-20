@@ -1,3 +1,8 @@
+'''Given an integer N, print the following pattern 
+This pattern prints a continuous sequence of increasing numbers, 
+arranged row by row in a triangular structure. Each row has one more number than the previous, 
+and the values increment consecutively throughout the triangle.'''
+
 class Solution:
     def pattern13(self, N):
         num = 1

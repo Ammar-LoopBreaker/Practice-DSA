@@ -1,3 +1,8 @@
+'''Given an integer N, print the following pattern 
+This pattern prints two symmetrical right-angled triangles facing each other with spaces in between. - 
+In the first half, stars increase while spaces decrease. - In the second half, 
+stars decrease while spaces increase. The symmetry is maintained across the middle row.'''
+
 class Solution:
     def pattern20(self, n):
         spaces = 2 * n - 2

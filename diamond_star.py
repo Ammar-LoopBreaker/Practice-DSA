@@ -1,3 +1,8 @@
+''' Given an integer N, print the following pattern
+These patterns create symmetric pyramids of stars
+Spaces are used to center-align the stars for symmetry'''
+
+
 class Solution:
     def erect_pyramid(self, N):
         for i in range(N):
